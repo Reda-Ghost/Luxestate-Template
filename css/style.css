@@ -65,7 +65,7 @@ h3 {
   z-index: 3;
   display: none;
   z-index: 4;
-  padding-top: 20px;
+  padding-top: 70px;
 }
 .mobile-nav .container .flex-items {
   height: 420px;
@@ -82,7 +82,7 @@ h3 {
   margin: 0;
 }
 .mobile-nav .container .flex-items .links ul li {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .mobile-nav .container .flex-items .links ul li a {
   padding: 20px;
@@ -94,6 +94,7 @@ h3 {
 }
 .mobile-nav .container .flex-items .buttons {
   text-align: center;
+  margin-top: 40px;
 }
 .mobile-nav .container .flex-items .buttons a {
   font-size: 13px;
