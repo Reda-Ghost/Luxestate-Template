@@ -16,7 +16,7 @@
   .container {
     max-width: 420px;
     margin: 0 auto;
-    padding: 0 5px;
+    padding: 0 10px;
   }
 }
 /* Large Mobile Screen */
@@ -60,23 +60,23 @@
   }
   .main-content .back-img .bottom-img .phone i, .main-content .back-img .bottom-img .location i {
     color: #96becebb;
-    font-size: 20px;
+    font-size: 19px;
     margin-right: 10px;
   }
   .main-content .back-img .bottom-img .phone p, .main-content .back-img .bottom-img .location p {
-    font-size: 10px;
+    font-size: 9px;
   }
   .apartments .container .apart {
     width: 100%;
-    margin: 20px auto;
-    margin-bottom: 40px;
-    box-shadow: var(--shadow);
   }
   .apartments .container .search {
-    width: 90%;
+    width: 92%;
+  }
+  .apartments .container .search input {
+    padding-right: 0px;
   }
   .apartments .container .view-all {
-    width: 90%;
+    width: 92%;
   }
   .works .container {
     width: 100%;
@@ -88,7 +88,7 @@
     width: 85%;
   }
   .add .container .show-more {
-    width: 90%;
+    width: 92%;
   }
   .footer .container .search {
     width: 95%;
