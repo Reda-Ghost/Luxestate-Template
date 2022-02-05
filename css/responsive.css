@@ -66,6 +66,14 @@
   .main-content .back-img .bottom-img .phone p, .main-content .back-img .bottom-img .location p {
     font-size: 9px;
   }
+  .statistics .container .grid-stat .col:first-of-type,
+  .statistics .container .grid-stat .col:last-of-type {
+    background-color: #1F373D;
+  }
+  .statistics .container .grid-stat .col:first-of-type .stat, 
+  .statistics .container .grid-stat .col:last-of-type .stat {
+    color: white;
+  }
   .apartments .container .apart {
     width: 100%;
   }
@@ -82,7 +90,7 @@
     width: 100%;
   }
   .agents .container .agent {
-    width: 100%;
+    width: 95%;
   }
   .add .container .grid-items .img-container .location {
     width: 85%;
@@ -194,6 +202,13 @@
     margin-bottom: 30px;
   }
   /* end Footer */
+  /* start Scroll top */
+  .scroll-top {
+    bottom: 5%;
+    right: 6%;
+  }    
+  
+  /* end Scroll top */
 }
 /* end Large Mobile Screen */
 
@@ -290,6 +305,12 @@
     width: 90%;
   }
   /* end Footer */
+  /* start scroll btn */
+  .scroll-top {
+    bottom: 4%;
+    right: 6%;
+  }
+  /* end scroll btn */
 }
 /* end Tablets Screen */
 
@@ -559,6 +580,15 @@
     margin-top: 20px;
   }
   /* end Footer */
+  /* start Scroll btn */
+  .scroll-top {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    bottom: 4%;
+    right: 3%;
+  }
+  /* end Scroll btn */
 }
 /* end Small Laptops Screen */
 

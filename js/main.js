@@ -24,4 +24,20 @@ $(document).ready(function () {
       $(".nav-bar").removeClass("shadow");
     }
   });
+
+  // window Scrolling Scripts
+  $(window).scroll(function () { 
+    // scrolling to top 
+    let scrollingTop = $(".scroll-top");
+    if ($(window).scrollTop() > 900) {
+      if(scrollingTop.is(":hidden")) {
+        scrollingTop.fadeIn(600).css("display","flex");
+      }
+    } else {
+      scrollingTop.fadeOut(600);
+    }
+    scrollingTop.click(function() {
+      $(window).scrollTop(0)
+    })
+  });
 });

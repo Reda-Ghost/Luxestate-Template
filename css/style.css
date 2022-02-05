@@ -15,6 +15,9 @@
   background-color: var(--secondColor);
   color: white;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
   color: var(--secondColor);
@@ -65,7 +68,7 @@ h3 {
   z-index: 3;
   display: none;
   z-index: 4;
-  padding-top: 15px;
+  padding-top: 22px;
 }
 .mobile-nav .container .flex-items {
   height: 420px;
@@ -700,3 +703,31 @@ h3 {
   color: var(--mainColor);
 }
 /* end Footer */
+/* start scroll top */
+.scroll-top {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 3%;
+  right: 9%;
+  background-color: var(--mainColor);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}
+.scroll-top i {
+  font-size: 15px;
+  color: var(--colorThree);
+}
+/* end scroll top */
