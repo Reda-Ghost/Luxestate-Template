@@ -66,6 +66,9 @@
   .main-content .back-img .bottom-img .phone p, .main-content .back-img .bottom-img .location p {
     font-size: 9px;
   }
+  .statistics .container .grid-stat {
+    gap: 20px 10px;
+  }
   .statistics .container .grid-stat .col:first-of-type,
   .statistics .container .grid-stat .col:last-of-type {
     background-color: #1F373D;
@@ -89,6 +92,11 @@
   .works .container {
     width: 100%;
   }
+  .works .container .work:first-of-type,
+  .works .container .work:nth-of-type(3),
+  .works .container .work:nth-of-type(5) {
+    background-color: #ffcc01e0;
+  }
   .agents .container .agent {
     width: 95%;
   }
@@ -100,6 +108,9 @@
   }
   .footer .container .search {
     width: 95%;
+  }
+  .footer .container .grid-items h2:first-of-type {
+    font-size: 35px;
   }
 }
 /* end Extra Small Screen */
